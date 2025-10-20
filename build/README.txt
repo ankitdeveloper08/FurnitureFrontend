@@ -1,0 +1,1 @@
+Place your real images here and update the `images` array in src/components/Gallery.js if needed.
