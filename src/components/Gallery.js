@@ -3,13 +3,14 @@ import React, { useState, useMemo } from 'react';
 // Local images (from public/)
 const images = [
   { id:1, src: '/Chair.jpg', title:'Modern Chair', category:'Chairs', price:'₹1200' },
-  { id:2, src: '/sofa.svg', title:'Luxury Sofa', category:'Sofas', price:'$399' },
+  { id:2, src: '/sofa.png', title:'Luxury Sofa', category:'Sofas', price:'$399' },
   { id:3, src: '/table.svg', title:'Dining Table', category:'Tables', price:'$199' },
-  { id:4, src: '/bed.svg', title:'Comfort Bed', category:'Beds', price:'$299' },
+  { id:4, src: '/BadFullking.png', title:'Comfort Bed', category:'Beds', price:'$299' },
   { id:5, src: '/wardrobe.svg', title:'Stylish Wardrobe', category:'Wardrobes', price:'$249' },
   { id:6, src: '/chair.svg', title:'Accent Chair', category:'Chairs', price:'$129' },
   { id:7, src: '/sofa.svg', title:'Compact Sofa', category:'Sofas', price:'$279' },
-  { id:8, src: '/table.svg', title:'Coffee Table', category:'Tables', price:'$79' }
+  { id:8, src: '/table.svg', title:'Coffee Table', category:'Tables', price:'$79' },
+  { id:9, src: '/Dresing.png', title:'Dressing Table', category:'Dresing', price:'$99' }
 ];
 
 const Gallery = () => {
